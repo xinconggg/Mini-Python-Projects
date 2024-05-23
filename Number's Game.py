@@ -9,7 +9,7 @@
 
 import random
 print("Welcome to Number Guessing game!")
-print("I'm thinking of a number between 1 and 100.")
+print("I'm thinking of a nurmber between 1 and 100.")
 
 def get_difficulty_level():
     correct_input = False
