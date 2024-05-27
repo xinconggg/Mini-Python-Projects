@@ -1,4 +1,4 @@
-## [Turtle Race](https://github.com/xinconggg/Mini-Python-Projects/blob/master/TurtleRace.py)
+## [Turtle Race](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Turtle%20Race.py)
 - A simple and interactive game where user bets on turtles racing across the screen
 - Utilizes the 'turtle' module to create and control the turtles
 
