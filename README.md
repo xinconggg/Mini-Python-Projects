@@ -1,4 +1,4 @@
-## Etch-A-Sketch (https://github.com/xinconggg/Mini-Python-Projects/blob/master/Etch-A-Sketch.py)
+## [Etch-A-Sketch](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Etch-A-Sketch.py)
 **Control Mapping**
 - W: Move Forward
 - S: Move Backward
