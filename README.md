@@ -1,6 +1,11 @@
+## [Snake Game](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Snake%20Game.py)
+- Utilizes "Turtle" graphics library for visual representation and animations for the Snake
+![2024-05-29 11-17-51 (online-video-cutter com) (1)](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/563d5271-2cde-4f7d-b9f3-ec9282a5f471)
+
+
 ## [Turtle Race](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Turtle%20Race.py)
 - A simple and interactive game where user bets on turtles racing across the screen
-- Utilizes the 'turtle' module to create and control the turtles
+- Utilizes the 'Turtle' module to create and control the turtles
 
 ![2024-05-2713-53-46online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/1460abeb-17ce-4173-ae6d-9002df0f09ad)
 
