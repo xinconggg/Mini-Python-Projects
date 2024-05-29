@@ -138,8 +138,5 @@ while not game_over:
             game_over = True
             scoreboard.game_over()
 
-    
-    
-
 
 screen.exitonclick()
