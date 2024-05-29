@@ -1,7 +1,8 @@
 ## [Pong](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Pong.py)
 - A simple Pong game with paddles controlled by the keyboard and keeps track of scores using a scoreboard
 - Utilizes "Turtle" module for keeping track of scores and animation of paddles and ball
-![test](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/16a783ef-57e3-41ad-bf3b-80b878135f61)
+![2024-05-29-21-50-46_IGuMwaWv-ezgif com-crop (1)](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/1b4e591b-4465-4d43-85dc-ce4bdd58c0cd)
+
 
 ## [Snake Game](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Snake%20Game.py)
 - Utilizes "Turtle" graphics library for visual representation and animations for the Snake
