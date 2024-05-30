@@ -1,3 +1,12 @@
+## [Turtle Crossing](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Turtle%20Crossing.py)
+- Game Mechanics: This project implements a simple turtle graphics-based game where the player navigates a turtle character through a traffic of cars. The player controls the turtle using the 'w', 's', 'a', and 'd' keys to move up, down, left, and right respectively. The objective is to avoid collisions with randomly generated cars and reach the finish line at the top of the screen.
+
+- Dynamic Difficulty: As the game progresses, the difficulty increases dynamically. The speed of the cars spawned increases incrementally, providing a greater challenge for the player. This gradual speed increment enhances the game's replay value and adds to the sense of accomplishment as players progress through levels.
+
+- Score Tracking and Game Over: The game includes a scoreboard that displays the current level. Each time the player successfully reaches the finish line, the level increases, and the speed of car spawning increases. If the player collides with any car, the game ends, displaying a "GAME OVER" message on the scoreboard. This clear feedback loop informs the player of their progress and performance within the game.
+![2024-05-3016-04-031online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/c328416e-0489-43dc-9a00-a24dde6a92f8)
+
+
 ## [Pong](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Pong.py)
 - A simple Pong game with paddles controlled by the keyboard and keeps track of scores using a scoreboard
 - Utilizes "Turtle" module for keeping track of scores and animation of paddles and ball
