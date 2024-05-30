@@ -4,7 +4,7 @@
 - Dynamic Difficulty: As the game progresses, the difficulty increases dynamically. The speed of the cars spawned increases incrementally, providing a greater challenge for the player. This gradual speed increment enhances the game's replay value and adds to the sense of accomplishment as players progress through levels.
 
 - Score Tracking and Game Over: The game includes a scoreboard that displays the current level. Each time the player successfully reaches the finish line, the level increases, and the speed of car spawning increases. If the player collides with any car, the game ends, displaying a "GAME OVER" message on the scoreboard. This clear feedback loop informs the player of their progress and performance within the game.
-![2024-05-3016-04-031online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/c328416e-0489-43dc-9a00-a24dde6a92f8)
+![2024-05-30 16-04-03(1) (online-video-cutter com)](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/c4048103-5570-4022-8c62-e6904eacdc16)
 
 
 ## [Pong](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Pong.py)
