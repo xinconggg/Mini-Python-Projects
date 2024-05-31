@@ -57,6 +57,14 @@ class Snake:
     def right(self):
         if self.head.heading() != 180: # If snake heading towards left, then it will not be able to head towards right
             self.head.setheading(0)
+    
+    def reset(self):
+        # To teleport dead snake away from active screen
+        for segment in self.snake:
+            segment.goto(1000,1000)
+        self.snake.clear()
+        self.create_starting_snake()
+        self.head = self.snake[0]
 
 
 # Create a "Food" class, inheriting from "Turtle" class
@@ -81,6 +89,10 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
+        # Access & Read Highscore from .txt
+        with open("Snake Game.txt") as highscore_file:
+            self.high_score = int(highscore_file.read())
+            
         self.color("white")
         self.hideturtle()
         self.goto(0, 270)
@@ -88,16 +100,21 @@ class Scoreboard(Turtle):
     
     def update_scoreboard(self):
         self.clear()
-        self.write(f"Score: {self.score}", align='Center', font=('Arial', 20, 'normal'))
+        self.write(f"Score: {self.score} Highscore: {self.high_score}", align='Center', font=('Arial', 20, 'normal'))
     
     def increase_score(self):
         self.score += 1
         self.update_scoreboard()
     
-    def game_over(self):
-        self.goto(0, 0)
-        self.write("Game Over!!!", align='Center', font=('Arial', 20, 'normal'))
+    def reset(self):
+        if self.score > self.high_score:
+            self.high_score = self.score
+            with open("Snake Game.txt", mode='w') as highscore_file:
+                highscore_file.write(f"{self.high_score}")
 
+        self.score = 0
+        self.update_scoreboard()
+    
 
 # Create a snake, food & scoreboard object
 snake = Snake() 
@@ -106,10 +123,10 @@ scoreboard = Scoreboard()
 
 # Binding keyboard to moving the snake
 screen.listen()
-screen.onkey(snake.up, "Up")
-screen.onkey(snake.down, "Down")
-screen.onkey(snake.left, "Left")
-screen.onkey(snake.right, "Right")
+screen.onkeypress(snake.up, "Up")
+screen.onkeypress(snake.down, "Down")
+screen.onkeypress(snake.left, "Left")
+screen.onkeypress(snake.right, "Right")
 
 # While game is still running 
 game_over = False
@@ -127,16 +144,16 @@ while not game_over:
     
     # Detect collision with wall
     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        game_over = True
-        scoreboard.game_over()
+        scoreboard.reset()
+        snake.reset()
     
     # Detect collision with body
     for segment in snake.snake:
         if segment == snake.head: # To exclude head of snake from segments
             pass
         elif snake.head.distance(segment) < 10:
-            game_over = True
-            scoreboard.game_over()
+            scoreboard.reset()
+            snake.reset()
 
 
 screen.exitonclick()
