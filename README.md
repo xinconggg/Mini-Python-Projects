@@ -38,6 +38,14 @@
 - A: Counter-Clockwise
 - D: Clockwise
 - C: Reset Drawing
+
 ![2024-05-2712-08-36-ezgif com-crop](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/795fc2f2-3f51-4a82-8950-9cd790c596f4)
 
+## [NATO Alphabets](https://github.com/xinconggg/Mini-Python-Projects/blob/master/NATO%20Alphabet.py)
+- Data Handling: The project involves handling and manipulating data using dictionaries and DataFrames with the pandas library, showcasing how to loop through dictionaries and DataFrame rows.
+- Phonetic Alphabet Conversion: It reads data from a CSV file containing the NATO phonetic alphabet, creating a dictionary that maps each letter to its corresponding phonetic code word.
+- Output Generation: The project outputs a list of phonetic code words corresponding to the input word, demonstrating how to generate and display a transformed list based on user input.
+- Practical Application: This project exemplifies practical applications of data handling, user input processing, and data transformation using Python and pandas, with potential uses in educational tools and communication aids.
 
+![Screenshot 2024-06-07 143135](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/f7326865-69ce-4822-89b1-480ba48d4082)
+![Screenshot 2024-06-07 143210](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/71ef328e-8e3d-47e6-bb00-64f5d039f729)
