@@ -4,6 +4,16 @@
 - Score Tracking and Game Over: The game includes a scoreboard that displays the current level. Each time the player successfully reaches the finish line, the level increases, and the speed of car spawning increases. If the player collides with any car, the game ends, displaying a "GAME OVER" message on the scoreboard. This clear feedback loop informs the player of their progress and performance within the game.
 ![2024-05-30 16-04-03(1) (online-video-cutter com)](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/c4048103-5570-4022-8c62-e6904eacdc16)
 
+## [Pomodoro Timer](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Pomodoro.py)
+- Purpose and Functionality: This project implements a Pomodoro timer, a productivity tool that uses timed intervals to break work into focused sessions (25 minutes of work) and short (5 minutes) or long (20 minutes) breaks.
+- User Interface: The application features a graphical user interface created with Tkinter. It includes a countdown timer displayed over an image of a tomato, start and reset buttons, and labels for indicating the current phase (work or break) and completed work sessions.
+- Core Mechanisms: The timer operates in cycles, with the start_timer function managing the transition between work and break periods based on the number of completed sessions (reps). The count_down function handles the countdown mechanism, updating the timer display every second.
+- Customization and Styling: The project uses various constants and configurations to set up colors, font styles, and the overall layout of the application. Labels and buttons are styled for clarity and ease of use.
+- Reset Functionality: A reset button allows users to cancel the ongoing timer and reset the display, labels, and internal counters, providing a fresh start for the timer at any point.
+  
+![Screenshot 2024-06-10 165316](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/26366aae-4042-4f35-9d4d-223cc817cd9b)
+![Work](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/985d414b-e224-4570-b79d-48ee0561337f) ![Short Break](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/26fac892-289c-47e9-852f-7d396e564e51) ![Long Break](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/e002974b-2955-4aea-b8df-7532c122e56c)
+
 
 ## [Guessing US States](https://github.com/xinconggg/Mini-Python-Projects/blob/master/US%20States%20Game.py)
 - Interactive Game: Players are prompted to guess the names of US states in an interactive turtle graphics window.
