@@ -20,7 +20,7 @@
 - Data Storage: It saves the entered and generated data (website, email, password) to a file (data.txt), appending each new entry on a new line, enabling simple password management.
 - Error Handling: The program incorporates basic validation to ensure no fields are left empty before saving data, providing user prompts for confirmation and error messages when necessary.
 - Usability Features: The interface ensures user-friendly interactions, such as setting focus on the website entry field on startup and clearing entry fields after saving data to streamline the process of adding new passwords.
-![2024-06-1216-09-58online-video-cutter com1-ezgif com-video-to-gif-converter](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/d4f3d92e-2d73-4904-9fe6-4d1bebe1aa64)
+![2024-06-12 16-09-58 (online-video-cutter com) (1)](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/d617fb9b-ed7b-4888-9d13-2c749ca58dc4)
 
 
 ## [Guessing US States](https://github.com/xinconggg/Mini-Python-Projects/blob/master/US%20States%20Game.py)
