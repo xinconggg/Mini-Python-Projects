@@ -14,6 +14,14 @@
 ![Screenshot 2024-06-10 165316](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/26366aae-4042-4f35-9d4d-223cc817cd9b)
 ![Work](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/985d414b-e224-4570-b79d-48ee0561337f) ![Short Break](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/26fac892-289c-47e9-852f-7d396e564e51) ![Long Break](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/e002974b-2955-4aea-b8df-7532c122e56c)
 
+## [Password Generator & Manager](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Password%20Generator%20%26%20Manager.py)
+- Password Generation: The project includes a feature that generates secure passwords using a mix of letters, numbers, and symbols, ensuring strong and varied password creation.
+- User Interface: Built with Tkinter, the GUI includes fields for entering website names, email addresses/usernames, and generated passwords, along with buttons for generating passwords and saving entries.
+- Data Storage: It saves the entered and generated data (website, email, password) to a file (data.txt), appending each new entry on a new line, enabling simple password management.
+- Error Handling: The program incorporates basic validation to ensure no fields are left empty before saving data, providing user prompts for confirmation and error messages when necessary.
+- Usability Features: The interface ensures user-friendly interactions, such as setting focus on the website entry field on startup and clearing entry fields after saving data to streamline the process of adding new passwords.
+![2024-06-1216-09-58online-video-cutter com1-ezgif com-video-to-gif-converter](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/d4f3d92e-2d73-4904-9fe6-4d1bebe1aa64)
+
 
 ## [Guessing US States](https://github.com/xinconggg/Mini-Python-Projects/blob/master/US%20States%20Game.py)
 - Interactive Game: Players are prompted to guess the names of US states in an interactive turtle graphics window.
