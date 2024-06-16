@@ -10,7 +10,6 @@
 - Button Functionality: "Right" and "Wrong" buttons let users mark words as known, updating and saving progress.
 - GUI Setup: Uses Tkinter for a styled interface with a canvas and buttons for user interaction.
 - File Saving: Saves progress by updating words_to_learn.csv with remaining words.
-![Uploading 2024-06-16 14-20-36 (online-video-cutter.com).gif…]()
 
 ## [Pomodoro Timer](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Pomodoro.py)
 - Purpose and Functionality: This project implements a Pomodoro timer, a productivity tool that uses timed intervals to break work into focused sessions (25 minutes of work) and short (5 minutes) or long (20 minutes) breaks.
