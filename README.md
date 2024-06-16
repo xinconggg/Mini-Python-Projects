@@ -76,3 +76,7 @@
 
 ![Screenshot 2024-06-07 143135](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/f7326865-69ce-4822-89b1-480ba48d4082)
 ![Screenshot 2024-06-07 143210](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/71ef328e-8e3d-47e6-bb00-64f5d039f729)
+
+## [Automated Email Sender (Motivational Quotes)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Quotes).py) & [Automated Email Sender (Birthday)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Quotes).py)
+
+
