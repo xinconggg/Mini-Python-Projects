@@ -4,6 +4,14 @@
 - Score Tracking and Game Over: The game includes a scoreboard that displays the current level. Each time the player successfully reaches the finish line, the level increases, and the speed of car spawning increases. If the player collides with any car, the game ends, displaying a "GAME OVER" message on the scoreboard. This clear feedback loop informs the player of their progress and performance within the game.
 ![2024-05-30 16-04-03(1) (online-video-cutter com)](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/c4048103-5570-4022-8c62-e6904eacdc16)
 
+## [Flashcard](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Flashcard.py)
+- CSV Data Handling: Reads French-English word pairs from CSV files and stores them in a list of dictionaries, tracking learning progress.
+- Card Display Functionality: Displays a random French word and flips to show the English translation after 3 seconds.
+- Button Functionality: "Right" and "Wrong" buttons let users mark words as known, updating and saving progress.
+- GUI Setup: Uses Tkinter for a styled interface with a canvas and buttons for user interaction.
+- File Saving: Saves progress by updating words_to_learn.csv with remaining words.
+![Uploading 2024-06-16 14-20-36 (online-video-cutter.com).gif…]()
+
 ## [Pomodoro Timer](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Pomodoro.py)
 - Purpose and Functionality: This project implements a Pomodoro timer, a productivity tool that uses timed intervals to break work into focused sessions (25 minutes of work) and short (5 minutes) or long (20 minutes) breaks.
 - User Interface: The application features a graphical user interface created with Tkinter. It includes a countdown timer displayed over an image of a tomato, start and reset buttons, and labels for indicating the current phase (work or break) and completed work sessions.
