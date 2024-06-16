@@ -77,6 +77,11 @@
 ![Screenshot 2024-06-07 143135](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/f7326865-69ce-4822-89b1-480ba48d4082)
 ![Screenshot 2024-06-07 143210](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/71ef328e-8e3d-47e6-bb00-64f5d039f729)
 
-## [Automated Email Sender (Motivational Quotes)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Quotes).py) & [Automated Email Sender (Birthday)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Quotes).py)
+## [Automated Email Sender (Motivational Quotes)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Quotes).py) & [Automated Email Sender (Birthday)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Birthday).py)
+- Objective: Both projects aim to improve user experience and engagement through timely and relevant email communication. The Monday Motivational Quotes project focuses on providing weekly inspiration. The Birthday Reminder project focuses on acknowledging and celebrating birthdays with personalized messages.
+- Email Automation: Both projects involve sending automated emails using the smtplib module to ensure timely delivery of messages. Emails are sent securely by using the starttls method to encrypt the connection.
+- Use of datetime Module: Both projects utilize the datetime module to work with current dates. In the Monday Motivational Quotes project, it checks if the current day is Monday. In the Birthday Reminder project, it creates a tuple of the current month and day to match against birthdays.
+- File Handling: Both projects involve reading content from files to get the necessary data. The Monday Motivational Quotes project reads quotes from a text file (quotes.txt). The Birthday Reminder project reads birthday data from a CSV file (birthdays.csv) and letter templates from text files (letter_1.txt, letter_2.txt, letter_3.txt).
+- Personalization: The Birthday Reminder project personalizes the email content by replacing the placeholder [NAME] in the letter templates with the birthday person's name. The Monday Motivational Quotes project, while not personalized for the recipient, provides a motivational message to start the week.
 
 
