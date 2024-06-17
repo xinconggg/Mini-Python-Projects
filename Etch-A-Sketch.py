@@ -23,8 +23,8 @@ def clear():
     t.home()
     t.pendown()
 
-screen.listen()
 
+screen.listen()
 # Movements
 screen.onkey(forward, "w")
 screen.onkey(backwards, "s")
