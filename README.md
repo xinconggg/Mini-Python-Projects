@@ -77,6 +77,13 @@
 ![Screenshot 2024-06-07 143135](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/f7326865-69ce-4822-89b1-480ba48d4082)
 ![Screenshot 2024-06-07 143210](https://github.com/xinconggg/Mini-Python-Projects/assets/82378681/71ef328e-8e3d-47e6-bb00-64f5d039f729)
 
+## [ISS Tracker (API)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/ISS%20Tracker%20(API).py)
+- Objective: The project aims to send an email notification when the International Space Station (ISS) is overhead at the user's location during nighttime.
+- ISS Position  & Nighttime Check: Uses the http://api.open-notify.org/iss-now.json API to get the current latitude and longitude of the ISS, and compares the ISS position with the user's location (within a 5-degree range) to determine if the ISS is overhead. Utilizes the https://api.sunrise-sunset.org/json API to get the sunrise and sunset times for the user's location, and determines if the current time is outside the period between sunrise and sunset, indicating nighttime.
+- Email Notification: If both the ISS is overhead and it is nighttime, the program sends an email notification to the user using the smtplib library to connect to Gmail's SMTP server, authenticate, and send the email.
+- Continuous Monitoring: The script runs continuously, checking every 60 seconds if the ISS is overhead and if it is nighttime, combining both conditions to ensure the notification is sent only when both are true.
+- User Configuration: Requires user input for email credentials (my_email and my_password) and geographic coordinates (my_latitude and my_longtitude), ensuring that the email is sent to the user’s specified email address when the conditions are met.
+
 ## [Automated Email Sender (Motivational Quotes)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Quotes).py) & [Automated Email Sender (Birthday)](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Automated%20Email%20Sender%20(Birthday).py)
 - Objective: Both projects aim to improve user experience and engagement through timely and relevant email communication. The Monday Motivational Quotes project focuses on providing weekly inspiration. The Birthday Reminder project focuses on acknowledging and celebrating birthdays with personalized messages.
 - Email Automation: Both projects involve sending automated emails using the smtplib module to ensure timely delivery of messages. Emails are sent securely by using the starttls method to encrypt the connection.
