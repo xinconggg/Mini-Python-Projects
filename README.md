@@ -1,3 +1,13 @@
+## [Quiz Game](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Quiz%20Game%20(GUI)%20-%20main.py)
+- Project Structure: Consists of multiple Python modules (Question, QuizBrain, QuizInterface, and question_data), renamed to comply with Python's naming conventions.
+- Data Handling: Fetches quiz questions from the Open Trivia Database API using the requests library, with the question_data variable storing the fetched questions which are parsed to create Question objects.
+- Core Classes:
+  - Question: Represents a single quiz question with its text and answer.
+  - QuizBrain: Manages the quiz logic, tracks the current question, and checks the user's answers.
+  - QuizInterface: Uses Tkinter for the GUI, displaying questions, updating scores, and providing feedback on user answers.
+- GUI Implementation: The Tkinter-based QuizInterface class creates the main window, score label, question canvas, and buttons for user interaction, including methods for updating the question text, handling button presses, and providing feedback based on user answers.
+- Quiz Logic: The quiz progresses by fetching and displaying the next question, checking if the user’s answer is correct, updating the score accordingly, and ends when all questions are answered, disabling the answer buttons and showing the final score.
+
 ## [Turtle Crossing](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Turtle%20Crossing.py)
 - Game Mechanics: This project implements a simple turtle graphics-based game where the player navigates a turtle character through a traffic of cars. The player controls the turtle using the 'w', 's', 'a', and 'd' keys to move up, down, left, and right respectively. The objective is to avoid collisions with randomly generated cars and reach the finish line at the top of the screen.
 - Dynamic Difficulty: As the game progresses, the difficulty increases dynamically. The speed of the cars spawned increases incrementally, providing a greater challenge for the player. This gradual speed increment enhances the game's replay value and adds to the sense of accomplishment as players progress through levels.
