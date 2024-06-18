@@ -8,7 +8,8 @@ ules (Question, QuizBrain, QuizInterface, and question_data), renamed to comply 
   - QuizInterface: Uses Tkinter for the GUI, displaying questions, updating scores, and providing feedback on user answers.
 - GUI Implementation: The Tkinter-based QuizInterface class creates the main window, score label, question canvas, and buttons for user interaction, including methods for updating the question text, handling button presses, and providing feedback based on user answers.
 - Quiz Logic: The quiz progresses by fetching and displaying the next question, checking if the user’s answer is correct, updating the score accordingly, and ends when all questions are answered, disabling the answer buttons and showing the final score.
-  ![Imgur](https://i.imgur.com/FSmMZ0j.gif)
+
+![Imgur](https://i.imgur.com/FSmMZ0j.gif)
 
 ## [Turtle Crossing](https://github.com/xinconggg/Mini-Python-Projects/blob/master/Turtle%20Crossing.py)
 - Game Mechanics: This project implements a simple turtle graphics-based game where the player navigates a turtle character through a traffic of cars. The player controls the turtle using the 'w', 's', 'a', and 'd' keys to move up, down, left, and right respectively. The objective is to avoid collisions with randomly generated cars and reach the finish line at the top of the screen.
